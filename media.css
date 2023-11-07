@@ -1,0 +1,268 @@
+
+
+/* xs */
+@media all and (min-width:0px) and (max-width:600px){
+   /* section one */
+   *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   }
+   .home-section{
+    height: auto;
+   }
+   .home-section .container{
+    text-align: center;
+    display: flex;
+    
+    flex-direction: column-reverse;
+    
+   }
+.profile-img{
+    width: 90%;
+}
+
+.heading{
+    width: 90%;
+    text-align: center;
+}
+.heading .btn{
+    justify-content: center;
+}
+
+/* section two */
+
+.card{
+    width: 95%;
+    margin: 10px;
+}
+/* section four--- */
+.img-groups{width: 90%;}
+.info-item{
+    width: 90%;
+}
+
+
+
+.input-gp{
+    display: flex;
+    flex-wrap: wrap;
+}
+.input-gp .input{
+    width: 98%;
+    margin: 5px 0px;
+}
+/*  footer section (section five)*/
+
+
+.footer-container .left{
+    width: 100%;
+}
+.footer-container .center{
+    
+    width: 100%;
+    margin: 20px 0px;
+}
+.center .form input{
+    width: 100%;
+}
+.center .form .btn {
+    margin: 20px 0px;
+    width: 100%;
+    
+}
+.quick-links h3{
+    padding: 10px 0px;
+}
+.footer-container .right{
+    width: 100%;
+    
+}
+}
+
+/* sm */
+@media all and (min-width:601px) and (max-width:768px)
+{
+    .home-section{
+        height: auto;
+       }
+       .home-section .container{
+        text-align: center;
+        display: flex;
+        
+        flex-direction: column-reverse;
+        
+       }
+    .profile-img{
+        width: 90%;
+    }
+    
+    .heading{
+        width: 90%;
+        text-align: center;
+    }
+    .heading .btn{
+        justify-content: center;
+    }
+    
+    
+    /* section two */
+    
+    .card{
+        width: 95%;
+        margin: 10px;
+    }
+    /* section four--- */
+    .img-groups{width: 90%;}
+    .info-item{
+        width: 90%;
+    }
+    
+    
+    
+    .input-gp{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .input-gp .input{
+        width: 98%;
+        margin: 5px 0px;
+    }
+    /*  footer section (section five)*/
+    
+    
+    .footer-container .left{
+        width: 100%;
+    }
+    .footer-container .center{
+        
+        width: 100%;
+    }
+    .center .form input{
+        width: 100%;
+    }
+    .center .form .btn {
+        margin: 20px 0px;
+        width: 100%;
+        
+    }
+    .quick-links h3{
+        padding: 10px 0px;
+    }
+    .footer-container .right{
+        width: 100%;
+    }
+    .right h3{
+        padding-top: 10px ;
+    }
+
+}
+
+/* md */
+
+@media all and (min-width:769px) and (max-width:991px)
+{
+    .home-section{
+        height: auto;
+       }
+       .home-section .container{
+        text-align: center;
+        display: flex;
+        
+        flex-direction: column-reverse;
+        
+       }
+       .profile-img{
+        width: 90%;
+    }
+    
+    .heading{
+        width: 90%;
+        text-align: center;
+    }
+    .heading .btn{
+        justify-content: center;
+    }
+    
+     /* section two */
+    .chef-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+     .card{
+        width: 45%;
+        margin: 10px;
+    }
+    /* contact us section (section for) */
+
+    .info-item{
+        width: 98%;
+    }
+
+    /* footer section (section five ) */
+    .footer-container{
+        
+        position: relative;
+    }
+    .footer-container .left{
+        width: 48%;
+    }
+    .footer-container .center{
+        
+        width: 100%;
+    }
+    .footer-container .right{
+        width: 48%;
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+}
+
+/* lg */
+
+@media all and (min-width:992px) and (max-width:1200px)
+{
+   
+    
+     /* section two */
+    .chef-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+     .card{
+        width: 45%;
+        margin: 10px;
+    }
+    /* contact us section (section four) */
+
+    .info-item{
+        width: 98%;
+    }
+
+    /* footer section (section five ) */
+    .footer-container{
+        
+        position: relative;
+    }
+    .footer-container .left{
+        width: 48%;
+    }
+    .footer-container .center{
+        
+        width: 100%;
+    }
+    .footer-container .right{
+        width: 48%;
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+}
+
+
+/* xl */
+
+@media all and (min-width:1201px) {
+   
+}
